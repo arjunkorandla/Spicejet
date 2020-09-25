@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="SpiceJet">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="PageObjects.CorperateTravell"/>
+      <class name="PageObjects.Cargo"/>
+      <class name="PageObjects.TC1"/>
+      <class name="PageObjects.SpiceClub"/>
+      <class name="PageObjects.Add_ON"/>
+      <class name="PageObjects.GiftCard"/>
+    </classes>
+  </test> <!-- SpiceJet -->
+</suite> <!-- Suite -->

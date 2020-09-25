@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="SpiceJet(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="PageObjects.TC1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="mainapge"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- PageObjects.TC1 -->
+      <class name="PageObjects.SpiceClub">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="spiceclub"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- PageObjects.SpiceClub -->
+    </classes>
+  </test> <!-- SpiceJet(failed) -->
+</suite> <!-- Failed suite [Suite] -->
